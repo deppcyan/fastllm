@@ -1,0 +1,4 @@
+.vscode
+build/
+fastllm.egg-info
+fastllm.cpython-311-x86_64-linux-gnu.so
