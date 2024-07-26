@@ -9,8 +9,14 @@ setup(
     ext_modules=[
         CUDAExtension(
             'fastllm', 
-            ['csrc/pybind.cpp',
-            'csrc/softmax_kernels.cu']
+            [
+            'csrc/pybind.cpp',
+            'csrc/softmax_kernels.cu',
+            'csrc/layers/mlp.cpp',
+            'csrc/layers/attention.cpp',
+            'csrc/layers/decoder_layer.cpp'
+            ],
+            extra_compile_args=['-g']
         ),
     ],
     cmdclass={
