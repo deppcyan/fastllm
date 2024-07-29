@@ -1,5 +1,9 @@
-#include <torch/extension.h>
+#include "decoder_layer.h"
 
-class DecoderLayer {
+DecoderLayer::DecoderLayer() {
 
-};
+}
+
+torch::Tensor DecoderLayer::forward() {
+    
+}
