@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/data/haiyang.wang/miniconda3/envs/llm/lib/python3.11/site-packages/torch/include",
+                "/data/haiyang.wang/miniconda3/envs/llm/lib/python3.11/site-packages/torch/include/torch/csrc/api/include",
+                "/data/haiyang.wang/miniconda3/envs/llm/include",
+                "/usr/local/cuda/include",
+                "/data/haiyang.wang/miniconda3/envs/llm/include/python3.11"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
